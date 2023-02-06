@@ -1,0 +1,84 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-lg-2,
+.col-lg-10,
+.col-lg-6,
+.col-lg-4,
+.col-lg-12 {
+    padding: 0;
+}
+
+header {
+    background: #2f4259;
+    padding: 40px;
+}
+
+header span {
+    padding-left: 15%;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 82vmin;
+    background: #2f4259;
+}
+
+.sidebar a {
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+.sidebar a:hover {
+    background-color: rgb(172, 50, 136);
+    border-radius: 6px;
+}
+
+.student {
+    height: 25vh;
+    background-color: #3b76ef;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    margin: 8px 0 0 8px;
+}
+
+.student p {
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.student span {
+    font-weight: light;
+    font-size: 30px;
+}
+
+.log {
+    padding: 40px 40px 40px 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a button {
+    border: none;
+    border-radius: 6px;
+    background-color: aquamarine;
+}

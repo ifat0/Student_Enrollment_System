@@ -1,0 +1,53 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100vh;
+}
+
+.row {
+    margin: 0;
+}
+
+.full {
+    display: flex;
+}
+
+.col-lg-2,
+.col-lg-10,
+.col-lg-6,
+.col-lg-4,
+.col-lg-12 {
+    padding: 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vmin;
+    background: #2f4259;
+    justify-content: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    padding: 20px 20px 15px 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.sidebar a:hover {
+    background-color: rgb(172, 50, 136);
+    border-radius: 6px;
+}
+
+.login {
+    background-color: bisque;
+}
+
+.login span {
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
